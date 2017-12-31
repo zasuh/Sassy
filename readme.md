@@ -6,3 +6,5 @@
 - The main mission of SASS is to remove this repetition using nesting, variables, better selectors, mixins, inline imports and so on.
 - *Compiling SASS*: `$ sass source_dir output_dir`
 - *Running SASS*: `$ sass sass/application.scss css/application.css`
+- *Watching in SASS*: `$ sass --watch source.scss:output.css`
+- *Compile `source.css` to `output.css`*: `$ sass --update source.scss:output.css`
