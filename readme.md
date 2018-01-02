@@ -14,3 +14,7 @@
 - Use SASS to orginize and to get rid of repetition.
 - As a general recommendation it is good to not go more than 3 layers deep.
 - Sass allows us to reference the *current parent selector(s)* via the *ampersand* (&) character.
+
+### January 2nd 2018 ###
+- `@import` means another files download. It includes the source during compilation time.
+- Files with underscores create partials. They don't compile to `.css` files and allow us to maintain code in more modular chunks.
