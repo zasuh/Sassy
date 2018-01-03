@@ -18,3 +18,9 @@
 ### January 2nd 2018 ###
 - `@import` means another files download. It includes the source during compilation time.
 - Files with underscores create partials. They don't compile to `.css` files and allow us to maintain code in more modular chunks.
+
+### January 3rd 2018 ###
+- *Variables* are probably most associated with colors, font sizes, font families, font paths, padding, margins, border and all other properties that tend to be repeated.
+- `$grey: rgba(0,0,0,.5);` is later referenced: `color: $grey`.
+- *Data types* consist of integers, strings, color, lists, booleans, null and maps.
+- Variables can be injected at later times using: `${variable_name}`
