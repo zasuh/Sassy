@@ -24,3 +24,6 @@
 - `$grey: rgba(0,0,0,.5);` is later referenced: `color: $grey`.
 - *Data types* consist of integers, strings, color, lists, booleans, null and maps.
 - Variables can be injected at later times using: `${variable_name}`
+
+### January 4th 2018 ###
+- Manipulating colors with math: `#555555 + #112233; // => #667788`
