@@ -27,3 +27,8 @@
 
 ### January 4th 2018 ###
 - Manipulating colors with math: `#555555 + #112233; // => #667788`
+
+### January 5th 2018 ###
+- Mixins allow the reuse of block styles.
+- Instead of just one single value bind to a variable name, we can add more values to a name with `@mixin` followed by the mixin name.
+- We can then `@include` mixins when needed.
