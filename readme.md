@@ -39,3 +39,7 @@
 - In SASS you declare functions with `@function` and return values with `@return` other than that they work like normal functions, taking arguments, running a bit of code and returning values.
 - Same goes for `@if` and `@else` statements, `@each`, `@for`, `@while`.
 - *Maps* give us key-value pairings. I've associated them with objects, where each key has some value assigned to them, in the case of CSS it's color, font families and so on.
+- You can nest *Media Queries* under any declaration in SASS. You can use variables to assign breakpoints.
+- *Modular Architecture* is the abstraction of repetition into "objects". This means thinking in modules with various states, knowing when to use classes vs. using IDs and having good naming convetions. Modularity, scalability, maintainability, not repeating ourselves and staying organized are goals when it comes to modular architecture.
+- *Compass* a CSS Authoring Framework. *Bourbon* a simple and lightweight mixin library for SASS. *Susy* which adds responsive grids to Compass.
+- Extensively use modules, don't extend too much, mind your mixins and media queries, check your output and enable SASS sourcemaps for debugging.
