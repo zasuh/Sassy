@@ -32,3 +32,10 @@
 - Mixins allow the reuse of block styles.
 - Instead of just one single value bind to a variable name, we can add more values to a name with `@mixin` followed by the mixin name.
 - We can then `@include` mixins when needed.
+
+### January 6th 2018 ###
+- `@extends` lets us group selectors together.
+- `%` is used with placeholders.
+- In SASS you declare functions with `@function` and return values with `@return` other than that they work like normal functions, taking arguments, running a bit of code and returning values.
+- Same goes for `@if` and `@else` statements, `@each`, `@for`, `@while`.
+- *Maps* give us key-value pairings. I've associated them with objects, where each key has some value assigned to them, in the case of CSS it's color, font families and so on.
